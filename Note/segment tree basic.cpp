@@ -11,7 +11,7 @@ void sync() // scanf() printf() X , only single-core
     cout.tie(NULL);
 }
 
-//segment tree (basic)
+//segment tree (basic) - BOJ 2042 example
 //vector<ll> tree, arr; // tree: 2n-1, arr:n push need
 ll arr[2000001], tree[3000002]; // tree: 2n-1, arr:n (array size need)
 int n, m, k;

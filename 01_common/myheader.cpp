@@ -4,10 +4,9 @@
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pii;
-typedef tuple<int, int, int> tiii;
-void sync() // scanf() printf() X , only single-core
+void fastio()
 {
-    ios_base :: sync_with_stdio(false);
+    ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 }
